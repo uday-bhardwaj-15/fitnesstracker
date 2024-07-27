@@ -1,4 +1,4 @@
-# Health Challenge Tracker
+# Fitness tracker
 
 ## Overview
 
