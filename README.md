@@ -42,6 +42,6 @@ Follow these steps to run the application locally.
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/ichhakumari/health-challenge-tracker-master.git
-   cd health-challenge-tracker-master
+   git clone https://github.com/uday-bhardwaj-15/fitnesstracker
+   cd fitnesstracker
    ```
