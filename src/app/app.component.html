@@ -1,0 +1,24 @@
+<div class="w-full h-full p-4 bg-gray-100">
+  <mat-tab-group backgroundColor="primary" colorScheme="accent">
+    <mat-tab label="All Users Workout List" icon="group">
+      <div class="flex flex-col space-y-6 pt-6">
+        <app-add-user
+          (userAdded)="
+            usersComponent.loadUsers(); progressChartComponent.loadUsers()
+          "
+        ></app-add-user>
+        <app-users #usersComponent></app-users>
+      </div>
+    </mat-tab>
+    <mat-tab label="Workout Progress" icon="bar_chart">
+      <div class="flex flex-col space-y-6 pt-6">
+        <app-add-user
+          (userAdded)="
+            usersComponent.loadUsers(); progressChartComponent.loadUsers()
+          "
+        ></app-add-user>
+        <app-progress-chart #progressChartComponent></app-progress-chart>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
